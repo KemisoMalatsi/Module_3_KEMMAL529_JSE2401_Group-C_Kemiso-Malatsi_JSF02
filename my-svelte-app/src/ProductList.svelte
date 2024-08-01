@@ -31,18 +31,20 @@
     
     <style>
        .product-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 1rem;
-  }
-      .product-card {
-        border: 1px solid #090808;
-        padding: 1rem;
-        border-radius: 8px;
-        cursor: pointer;
-        width: 200px;
-        background-color: white;
-      }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.product-card {
+  border: 1px solid #090808;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 200px;
+  background-color: white;
+}
+
     </style>
     
     <select on:change={handleCategoryChange}>
